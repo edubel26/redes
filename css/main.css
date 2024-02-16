@@ -1,0 +1,57 @@
+:root {
+  --theme-color: rgb(251, 249, 250);
+  --primary-color: rgb(113, 155, 142);
+  --secondary-color: rgb(198, 175, 194);
+  --text-color-inverse: #e5e5e5;
+  --text-color: black;
+  --menu-mobile-background-color: #3a4460;
+
+  --accent-color: var(--primary-color);
+  --primary-color-inverse: black ;
+
+  --navbar-shallow: 0 4px 5px #e5e5e5;
+  --tag-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  --transition: 0.2s ease-in-out ;
+
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  section[id] {
+    scroll-margin-top: 70px;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  .horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  @media (min-width: 950px) {
+    .horizontal-padding {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .vertical-padding {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  }

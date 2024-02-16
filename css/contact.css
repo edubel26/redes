@@ -1,0 +1,92 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(241, 240, 240);
+  font-size: 30px;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+}
+
+.social-link{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(241, 240, 240);
+  font-size: 30px;
+  padding-top: 5px;
+
+}
+.redes{
+
+  color: rgb(241, 240, 240);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+  .social-list {
+    list-style: none;
+    gap: 25px;
+    justify-content: center;
+    padding: 5%;
+
+  }
+  
+  .social-list img {
+    height: 25px;
+  }
+  
+  .social-list img:hover {
+    filter: drop-shadow(0 0 5px var(--secondary-color));
+  }
+  
+  @media (min-width: 950px) {
+    .contact {
+      font-size: 20px;
+      padding: 70px;
+  
+      max-width: 980px;
+      margin: 0 auto;
+  
+      box-sizing: border-box;
+    }
+  
+    .contact-title {
+      font-size: 35px;
+      text-align: left;
+    }
+  
+    .social-list {
+      justify-content: flex-start;
+    }
+  
+    .social-list img {
+      height: 35px;
+    }
+  
+    .contact-title {
+      grid-area: title;
+    }
+  
+    .contact-details {
+      grid-area: details;
+    }
+  
+    .contact-form {
+      grid-area: form;
+    }
+  
+    .social {
+      grid-area: social;
+    }
+  
+    .contact {
+      display: grid;
+      grid:
+        "title   form" auto
+        "details form" 1fr
+        "social  form" auto /
+        1fr      1fr;
+      align-items: start;
+    }
+  }

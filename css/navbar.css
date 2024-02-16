@@ -1,0 +1,60 @@
+.topheader {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.top{
+  
+  position: center;
+  background-color: rgb(10, 88, 124);
+  left: 0;
+  top: 60px;
+  width: 70%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  max-width: 980px;
+  
+}
+
+.fondo {
+  background-color: rgb(31, 41, 83);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+/* Logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--accent-color);
+  
+}
+
+.logo img {
+  border-radius: 50%;
+}
+
+/* Menu */
+
+.logotype {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 950px) {
+  /* Menu */
+}
